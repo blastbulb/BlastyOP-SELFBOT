@@ -155,7 +155,7 @@ def Init():
     token = config.get('token')
     try:
         Arsky.run(token, bot=False, reconnect=True)
-        os.system(f'title (Arsky Selfbot) - Version {SELFBOT.__version__}')
+        os.system(f'title (BlastyOP Selfbot) - Version {SELFBOT.__version__}')
     except discord.errors.LoginFailure:
         print(f"{Fore.RED}[ERROR] {Fore.YELLOW}Improper token has been passed" + Fore.RESET)
         os.system('pause >NUL')
