@@ -818,11 +818,11 @@ async def help(ctx, category=None):
     await ctx.message.delete()
     if category is None:
         embed = discord.Embed(color=0xFF633B, timestamp=ctx.message.created_at)
-        embed.set_author(name="𝘈𝘙𝘚𝘒𝘠 𝙎𝙀𝙇𝙁𝘽𝙊𝙏 | 𝙋𝙍𝙀𝙁𝙄𝙓: " + str(Arsky.command_prefix),
+        embed.set_author(name="BlastyOP SELFBOT | 𝙋𝙍𝙀𝙁𝙄𝙓: " + str(Arsky.command_prefix),
                          icon_url=Arsky.user.avatar_url)
         embed.set_thumbnail(url=Arsky.user.avatar_url)
-        embed.set_image(url="https://media.discordapp.net/attachments/789202406000033872/790317974863085578/image0.gif?width=320&height=180")
-        embed.add_field(name="\uD83E\uDDCA `ARSKY`", value="Shows all Arsky commands", inline=False)
+        embed.set_image(url="https://images-ext-2.discordapp.net/external/FA_AnGL0vrwyATKydaro5h7w_koxe9gUYFszKJyZYPA/https/media.discordapp.net/attachments/813739316290256937/825238906751418378/Untitled_Project_Made_with_Clipchamp_1.gif")
+        embed.add_field(name="\uD83E\uDDCA `BlastyOP`", value="Shows all Arsky commands", inline=False)
         embed.add_field(name="\uD83E\uDDCA `ACCOUNT`", value="Shows all account commands", inline=False)
         embed.add_field(name="\uD83E\uDDCA `TEXT`", value="Shows all text commands", inline=False)
         embed.add_field(name="\uD83E\uDDCA `RAP`", value="Shows all music commands", inline=False)
